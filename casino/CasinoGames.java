@@ -69,7 +69,7 @@ public class CasinoGames {
 				    	        System.out.println("Current Balance: " + balanceMoney);
 				    	        System.out.println("========================");
 				    	        
-				    	        System.out.println("1.Play Coin Slot Machine \n2. Top up Money \n3. Show Game History \n0. Exit");
+				    	        System.out.println("1.Play Coin Slot Machine \n2. Top up Money \n3. Show Game History \n0. Log out");
 				    	        
 
 				    	        
@@ -81,6 +81,10 @@ public class CasinoGames {
 				    	        }
 				    	        else if(_userChoiceMenu == 3) {
 				    	        	showGameHistory(statement, casinoUserId);
+				    	        }
+				    	        else if (_userChoiceMenu == 0) {
+				    	        	System.out.println("See you again. Bye..");
+				    	        	break;
 				    	        }
 				        	}
 				        	else {
